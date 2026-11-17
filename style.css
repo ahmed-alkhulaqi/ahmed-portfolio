@@ -834,3 +834,33 @@ tr:hover td {
     }
 
 }
+
+/* MY INTERESTS LIST */
+
+.interests-list {
+    margin-top: 12px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    color: var(--gray);
+    line-height: 1.9;
+    list-style-type: disc;
+}
+
+.interests-list li {
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+
+.interests-list li::marker {
+    color: var(--blue);
+}
+
+/* FONT STYLES */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+p, li, td {
+    font-family: Arial, Helvetica, sans-serif;
+}
